@@ -1,0 +1,221 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Nav {
+  background-position: fixed;
+  background: fixed;
+  font-family: sans-serif;
+  text-decoration: dotted;
+  overflow: scroll;
+}
+
+
+
+.a22 {
+  display: flex;
+}
+
+.a2 {
+
+  margin-top: 40px;
+  height: 400px;
+  background-color: hwb(33 0% 0%);
+  width: 33%;
+}
+
+:hover.a2 {
+  width: 40%;
+  height: 415px;
+}
+
+.h1 {
+  height: 70px;
+  width: 100%;
+
+  background-color: white;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.cards1 {
+  margin-left: 90px;
+  height: 200px;
+  width: 320px;
+  /* background-color: #ff8c00; */
+}
+
+.bulb {
+  background-color: yellow;
+}
+
+:hover.bulb {
+  display: block;
+}
+
+
+.image2 {
+  margin-top: 150px;
+  height: 600px;
+  width: 100%;
+  background: lawngreen;
+}
+
+.imm {
+
+  height: 100%;
+  width: 100%;
+}
+
+.index {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-color: sandybrown;
+}
+
+
+.sonu {
+  /* width: auto; */
+  background-color: darkslategray;
+  height: 40px;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.slide3 {
+  height: 550px;
+  width: 100%;
+}
+
+
+
+
+
+.input {
+  height: 200px;
+  width: 400px;
+  text-overflow: inherit;
+  align-items: start;
+
+}
+
+.input_bot {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 40px;
+  border-radius: 2px;
+  align-self: center;
+}
+
+.box {
+  background-color: rgb(252, 250, 249);
+  height: 400px;
+  display: flex;
+  margin-top: 2px;
+}
+
+.imgg {
+  height: 350px;
+  margin-top: 35px;
+  padding-left: 22px;
+  margin-left: 0px;
+  width: 500px;
+
+}
+
+.pp {
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: sandybrown;
+  height: 350px;
+  width: 800px;
+  margin-left: 30px;
+}
+
+.photo2 {
+  height: 400px;
+  display: flex;
+  background-color: rgb(255, 174, 0);
+}
+
+.img2 {
+  width: 800px;
+}
+
+.photo {
+  width: 100%;
+
+  /* background-color: sandybrown; */
+  color: brown;
+  height: 50px;
+}
+
+.cp {
+  height: 250px;
+  width: 90%;
+  margin-left: 100px;
+  /* background-color: burlywood; */
+  display: flex;
+
+}
+
+.card2 {
+  margin-top: 10px;
+  display: flex;
+  width: 90%;
+  margin-left: 100px;
+}
+
+:hover.zz {
+  /* height: 10%; */
+  display: block;
+  image-rendering: auto;
+}
+
+#z1 {
+  display: flex;
+  height: 100px;
+  background-color: darkorange;
+  width: 100%;
+}
+
+#z2 {
+  /* display: flex; */
+  /* color: aliceblue; */
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+#z3 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#z4 {
+  margin-top: 0px;
+  margin-left: 60px;
+}
