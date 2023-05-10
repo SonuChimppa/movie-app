@@ -15,21 +15,14 @@ function Apisonu() {
         })
     }, [])
     console.log(filtervalue)
-     function handlefilter(e) {
-        console.log(e)
-        if (e.target.value == '') {
-            setData(setsearchapi)
-        }
-        else {
-            const filterdata = searchapi.filter((item) => item.name.toLoverCase().includes(e.target.value.toLoverCase()))
-            setData(filterdata)
-        }
-        setfilterval(e.target.value)
-    }
+
 
     return (
         <> <h1>Apisonu</h1>
-            <input placeholder='search' onChange={(e) => setfilterval(e.target.value)} ></input>
+            <input
+                placeholder='search'
+                onChange={(e) => setfilterval(e.target.value)}
+            ></input>
             <table border={1} bgcolor={"geen"}>
                 <tr>
                     <td bgcolor={"yellow"}>serial no.</td>
